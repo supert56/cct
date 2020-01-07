@@ -1,0 +1,151 @@
+/*Navbar*/
+
+.navbar {
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.navbar-default {
+  background: transparent;
+  border: none;
+  width: 100%;
+}
+
+.navbar-collapse {
+  border: none;
+  margin-top:8px;
+  text-align: center;
+}
+
+
+.navbar-default .navbar-brand{
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.navbar.navbar-default {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-brand img {
+  max-width: 180px;
+  transition: ease-in-out 0.5s;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #ffffff;
+  filter: opacity(0.5);
+}
+
+#book_link:hover {
+  color: rgb(199, 44, 222);
+  filter: opacity(1);
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-header, .navbar-brand {
+      padding: 15px;
+      text-align: center;
+      width: 100%;
+      float: none;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 12px;
+  }
+
+  .navbar-toggle {
+    margin-right: 0;
+  }
+
+  .container-fluid>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .navbar-toggle {
+    margin-top: 0;
+  }
+
+  .navbar-brand img {
+    display: inline-block;
+    max-width: 127px;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: rgba(199, 44, 222, 1);
+  border: 1px solid rgba(199, 44, 222, 1);
+
+}
+
+/*blockquote*/
+
+blockquote {
+  border-left: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: rgba(114, 114, 114, 0.7);
+  letter-spacing: 1px;
+  line-height: 1.85;
+  margin-bottom: 15px;
+}
+
+figcaption {
+  margin: 0 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  /*color: rgba(114, 114, 114, 1);*/
+  color: rgb(27, 27, 27);
+  letter-spacing: 1.6px;
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+}
+
+.times-font {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+
+/*Contact form*/
+
+label {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 12px;
+  color: #727272;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.form-control {
+  border-radius: 0;
+  -webkit-appearance: none;
+  color: #727272;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 12px;
+  padding: 6px 12px;
+  box-shadow: none;
+}
