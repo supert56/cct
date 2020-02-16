@@ -206,6 +206,12 @@ img {
   background-size: cover;
 }
 
+#guides_hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+    url("../images/the_river.jpg") center center;
+  background-size: cover;
+}
+
 #faq_hero {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
     url("../images/corpus-christi-small.jpg") center center;
