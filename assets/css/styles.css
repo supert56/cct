@@ -638,3 +638,23 @@ img {
     padding-left: 0;
   }
 }
+
+.offer {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 40px;
+  border-top: 3px solid #380c3e;
+  border-bottom: 3px solid #380c3e;
+  flex-direction: column;
+}
+
+.offer h4 {
+  font-size: 24px;
+  text-align: Center;
+  margin-bottom: 40px;
+}
+
+.offer p {
+  font-size: 16px;
+  letter-spacing: 0;
+}
