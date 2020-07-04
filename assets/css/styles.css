@@ -670,9 +670,10 @@ img {
   letter-spacing: 0;
   color: #727272;
 }
-.offer ul {
-  margin-bottom: 40px;
-}
 .offer i {
   color: red;
+}
+
+ul {
+  margin-bottom: 40px;
 }
