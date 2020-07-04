@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   function setImgHeight() {
     var windowHeight = $(window).height();
     var url = window.location.href;
@@ -8,7 +8,7 @@ $(document).ready(function() {
     if (
       url.match(/about/g) ||
       url.match(/guides/g) ||
-      url.match(/\/tours/g) ||
+      url.match(/\/cambridge-walking-tours/g) ||
       url.match(/testimonials/g) ||
       url.match(/contact/g) ||
       url.match(/faqs/g) ||
@@ -31,7 +31,7 @@ $(document).ready(function() {
   }
 
   // Navbar opacity layer
-  $(".navbar-default .navbar-toggle").click(function() {
+  $(".navbar-default .navbar-toggle").click(function () {
     $("#homepage_hero").toggleClass("opacity");
     $("#about_hero").toggleClass("opacity");
     $("#faq_hero").toggleClass("opacity");
@@ -39,7 +39,7 @@ $(document).ready(function() {
 
   //window resizing
 
-  $(window).on("resize", function() {
+  $(window).on("resize", function () {
     setImgHeight();
   });
 
