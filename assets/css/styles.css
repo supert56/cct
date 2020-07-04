@@ -670,10 +670,11 @@ img {
   letter-spacing: 0;
   color: #727272;
 }
-.offer i {
-  color: red;
-}
 
 ul {
   margin-bottom: 40px;
+}
+
+.red {
+  color: red;
 }
