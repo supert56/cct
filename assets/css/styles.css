@@ -55,6 +55,10 @@ h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
 
 img {
   width: 100%;
@@ -646,15 +650,29 @@ img {
   border-top: 3px solid #380c3e;
   border-bottom: 3px solid #380c3e;
   flex-direction: column;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  margin-bottom: 48px;
 }
 
 .offer h4 {
   font-size: 24px;
-  text-align: Center;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
+}
+.offer h5 {
+  font-size: 18px;
+  margin-bottom: 16px;
 }
 
-.offer p {
+.offer p,
+.offer li {
   font-size: 16px;
   letter-spacing: 0;
+  color: #727272;
+}
+.offer ul {
+  margin-bottom: 40px;
+}
+.offer i {
+  color: red;
 }
