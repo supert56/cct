@@ -202,6 +202,9 @@ img {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
     url("../images/kings_chapel.jpg") center center;
   background-size: cover;
+  position: relative;
+  top: 0;
+  right: 0;
 }
 
 #about_hero {
@@ -261,6 +264,30 @@ img {
 .text-wrapper {
   margin-top: 140px;
   margin-bottom: 140px;
+}
+
+/* 'Good-To-Go' styling*/
+/* Desktop Only*/
+.good-to-go {
+  max-width: 200px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 150px;
+}
+
+/* Mobile Only*/
+@media only screen and (max-width: 850px) {.good-to-go
+{
+  position: absolute;
+  max-width: 180px;
+  bottom: 0;
+  right: 0;
+  
+  left: 0;
+  margin: 0 auto;
+}
 }
 
 /*Title styling*/
