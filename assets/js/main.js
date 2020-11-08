@@ -13,7 +13,8 @@ $(document).ready(function () {
       url.match(/contact/g) ||
       url.match(/faqs/g) ||
       url.match(/terms/g) ||
-      url.match(/thankyou/g)
+      url.match(/thankyou/g) ||
+      url.match(/things-to-do/g)
     ) {
       $(".js-wrapper").css("height", windowHeight / 1.7);
     } else {
