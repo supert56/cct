@@ -362,12 +362,12 @@ img {
 }
 
 /* Mobile Only */
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .thingstodo-text-positioning {
     display: inline;
     text-align: center;
   }
-}
+} */
 
 /*faqs*/
 .panel-default > .panel-heading {
@@ -734,4 +734,14 @@ ul {
 
 .red {
   color: red;
+}
+
+.things-row {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.things-row.reverse {
+  flex-direction: row-reverse;
 }
