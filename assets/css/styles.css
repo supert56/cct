@@ -745,3 +745,13 @@ ul {
 .things-row.reverse {
   flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 992px) {
+  .things-row {
+    flex-direction: column;
+    margin-top: 48px;
+  }
+  .things-row.reverse {
+    flex-direction: column;
+  }
+}
