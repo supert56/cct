@@ -219,6 +219,12 @@ img {
   background-size: cover;
 }
 
+#things_to_do_hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+    url("../images/things_to_do/things_to_do_banner.JPG") center center;
+  background-size: cover;
+}
+
 #faq_hero {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
     url("../images/corpus-christi-small.jpg") center center;
@@ -267,6 +273,7 @@ img {
 }
 
 /* 'Good-To-Go' styling*/
+
 /* Desktop Only*/
 .good-to-go {
   max-width: 200px;
@@ -278,16 +285,16 @@ img {
 }
 
 /* Mobile Only*/
-@media only screen and (max-width: 850px) {.good-to-go
-{
-  position: absolute;
-  max-width: 180px;
-  bottom: 0;
-  right: 0;
-  
-  left: 0;
-  margin: 0 auto;
-}
+@media only screen and (max-width: 850px) {
+  .good-to-go {
+    position: absolute;
+    max-width: 180px;
+    bottom: 0;
+    right: 0;
+
+    left: 0;
+    margin: 0 auto;
+  }
 }
 
 /*Title styling*/
@@ -337,6 +344,15 @@ img {
     max-width: 20%;
     margin-left: 40%;
   }
+}
+
+/*Things to Do in Cambridge*/
+
+.thingstodo-img {
+  width: 400px;
+  border-radius: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 /*faqs*/
@@ -704,4 +720,24 @@ ul {
 
 .red {
   color: red;
+}
+
+.things-row {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.things-row.reverse {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 992px) {
+  .things-row {
+    flex-direction: column;
+    margin-top: 48px;
+  }
+  .things-row.reverse {
+    flex-direction: column;
+  }
 }
