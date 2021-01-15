@@ -38,6 +38,11 @@ $(document).ready(function () {
     $("#faq_hero").toggleClass("opacity");
   });
 
+  // Good-to-go-mobile opacity
+  $(".navbar-default .navbar-toggle").click(function () {
+    $(".good-to-go-mobile").toggleClass("good-to-go-hide");
+  });
+
   //window resizing
 
   $(window).on("resize", function () {
