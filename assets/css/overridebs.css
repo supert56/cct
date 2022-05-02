@@ -6,23 +6,29 @@
 }
 
 .navbar-default {
-  background: transparent;
+  background-color: purple;
   border: none;
+  padding-bottom: 24px;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-default {
+    padding-bottom: 0;
+  }
 }
 
 .navbar-collapse {
   border: none;
-  margin-top:8px;
+  margin-top: 8px;
   text-align: center;
 }
 
-
-.navbar-default .navbar-brand{
+.navbar-default .navbar-brand {
   color: #ffffff;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
   font-weight: bold;
@@ -32,15 +38,15 @@
 }
 
 .navbar.navbar-default {
-    border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar.navbar-default .navbar-collapse {
-    border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar-brand img {
@@ -48,7 +54,8 @@
   transition: ease-in-out 0.5s;
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
   color: #ffffff;
   filter: opacity(0.5);
 }
@@ -59,14 +66,15 @@
 }
 
 @media screen and (max-width: 767px) {
-  .navbar-header, .navbar-brand {
-      padding: 15px;
-      text-align: center;
-      width: 100%;
-      float: none;
+  .navbar-header,
+  .navbar-brand {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    float: none;
   }
 
-  .navbar-nav>li>a {
+  .navbar-nav > li > a {
     padding-top: 8px;
     padding-bottom: 8px;
     line-height: 12px;
@@ -76,7 +84,7 @@
     margin-right: 0;
   }
 
-  .container-fluid>.navbar-header {
+  .container-fluid > .navbar-header {
     margin-right: 0;
     margin-left: 0;
   }
@@ -95,10 +103,10 @@
   background-color: #ffffff;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
   background-color: rgba(199, 44, 222, 1);
   border: 1px solid rgba(199, 44, 222, 1);
-
 }
 
 /*blockquote*/
@@ -125,10 +133,9 @@ figcaption {
 }
 
 .times-font {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
 }
-
 
 /*Contact form*/
 

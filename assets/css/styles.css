@@ -14,8 +14,8 @@ h4 {
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   color: #727272;
   letter-spacing: 1px;
   line-height: 1.85;
@@ -33,30 +33,30 @@ a:active {
 
 h1,
 .h1style {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
 h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
 }
 h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 }
 
@@ -73,7 +73,7 @@ table {
 td {
   font-size: 20px;
   font-weight: 600;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0;
   line-height: 1.85;
 }
@@ -117,7 +117,7 @@ td {
   border-bottom: 15px solid #ffffff;
   border-right: 15px solid transparent;
   display: block;
-  content: "";
+  content: '';
 }
 
 .arrow:after {
@@ -128,7 +128,7 @@ td {
   border-bottom: 15px solid #ffffff;
   border-left: 15px solid transparent;
   display: block;
-  content: "";
+  content: '';
 }
 
 /*dividers*/
@@ -154,7 +154,7 @@ td {
 /*Button*/
 
 .btn-pink {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: #ffffff;
   font-size: 11px;
@@ -213,8 +213,7 @@ td {
 }
 
 #homepage_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
-    url("../images/kings_chapel.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url('../images/kings_chapel.jpg') center center;
   background-size: cover;
   position: relative;
   top: 0;
@@ -222,50 +221,42 @@ td {
 }
 
 #about_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
-    url("../images/river-darwin.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url('../images/river-darwin.jpg') center center;
   background-size: cover;
 }
 
 #guides_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
-    url("../images/the_river.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url('../images/the_river.jpg') center center;
   background-size: cover;
 }
 
 #things_to_do_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
-    url("../images/things_to_do/things_to_do_banner.JPG") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url('../images/things_to_do/things_to_do_banner.JPG') center center;
   background-size: cover;
 }
 
 #faq_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
-    url("../images/corpus-christi-small.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url('../images/corpus-christi-small.jpg') center center;
   background-size: cover;
 }
 
 #tours_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
-    url("../images/senate-house-(small).jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../images/senate-house-(small).jpg') center center;
   background-size: cover;
 }
 
 #testimonial_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
-    url("../images/parker-library.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../images/parker-library.jpg') center center;
   background-size: cover;
 }
 
 #contact_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
-    url("../images/apple-tree.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../images/apple-tree.jpg') center center;
   background-size: cover;
 }
 
 #terms_hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
-    url("../images/trinity-courtyard.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('../images/trinity-courtyard.jpg') center center;
   background-size: cover;
 }
 
@@ -442,13 +433,67 @@ td {
   }
 }
 
+/*Prices*/
+
+.priceContainer {
+  margin: 0 auto;
+  width: 65vw;
+}
+
+.priceContainer h1:first-of-type {
+  text-align: center;
+}
+
+.priceTable {
+  width: 100%;
+  margin: 0;
+}
+
+tr td:first-of-type {
+  padding-right: 4px;
+}
+
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4) {
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 780px) {
+  .priceContainer {
+    width: 75vw;
+  }
+  .priceTable tr td {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .priceContainer {
+    width: 80vw;
+  }
+  .priceTable tr td {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .priceContainer {
+    width: 90vw;
+  }
+}
+
+.priceTable tr:nth-of-type(5) td:first-of-type {
+  max-width: 520px;
+}
+
 /*Tours styling*/
 
 .line-through-price {
   text-decoration: line-through;
   font-size: 20px;
   margin-bottom: 5px;
-  font-family: "montserrat", sans-serif;
+  font-family: 'montserrat', sans-serif;
   color: #e6e6e6;
   letter-spacing: -0.02em;
   margin-bottom: 0;
@@ -552,7 +597,7 @@ td {
   font-size: 20px;
   margin-bottom: 5px;
   font-weight: bold;
-  font-family: "montserrat", sans-serif;
+  font-family: 'montserrat', sans-serif;
   color: #1b1b1b;
   letter-spacing: -0.02em;
   margin-bottom: 0;
@@ -684,7 +729,7 @@ td {
 
 .footer a,
 #astyling {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 2px;
