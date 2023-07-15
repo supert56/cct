@@ -14,7 +14,8 @@ $(document).ready(function () {
       url.match(/faqs/g) ||
       url.match(/terms/g) ||
       url.match(/thankyou/g) ||
-      url.match(/things-to-do/g)
+      url.match(/things-to-do/g) ||
+      url.match(/visitors-guide/g)
     ) {
       $(".js-wrapper").css("height", windowHeight / 1.7);
     } else {
