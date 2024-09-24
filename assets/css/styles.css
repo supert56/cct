@@ -151,6 +151,12 @@ td {
   margin: 0 auto 50px;
 }
 
+.divider-testimonials {
+  border-bottom: 2px solid rgba(242, 242, 242, 1);
+  width: 5%;
+  margin: 25px auto;
+}
+
 /*Button*/
 
 .btn-pink {
